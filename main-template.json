@@ -66,11 +66,11 @@
             "dirPassword": "Sysgain@1234"
         },
         "userInfo": {
-            "company": "[variables('company')]",
-            "emailAddress": "[variables('emailAddress')]",
+            "company": "[variables('Spektra')]",
+            "emailAddress": "[variables('amit.kumar@spektrasystems.com')]",
             "businessPhone": "[variables('businessPhone')]",
-            "firstName": "[variables('firstName')]",
-            "lastName": "[variables('lastName')]",
+            "firstName": "[variables('Amit')]",
+            "lastName": "[variables('Kumar')]",
             "jobRole": "[variables('jobRole')]",
             "jobFunction": "[variables('jobFunction')]"
         },
