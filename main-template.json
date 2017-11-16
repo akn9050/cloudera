@@ -58,12 +58,12 @@
             "hostFqdnSuffix": "[variables('dnsNameSuffix')]",
             "dbAddress": "10.3.0.4",
             "dbUsername": "dbadmin",
-            "dbPassword": "Sysgain@1234",
+            "dbPassword": "Spektra@1234",
             "masterType": "Standard_DS13",
             "workerType": "Standard_DS13",
             "edgeType": "Standard_DS13",
             "dirUsername": "cloudera",
-            "dirPassword": "Sysgain@1234"
+            "dirPassword": "Spektra@1234"
         },
         "userInfo": {
             "company": "[variables('company')]",
@@ -77,9 +77,9 @@
         "vmSpec": {
             "vmSize": "Standard_DS12_v2",
             "adminUsername": "cloudera",
-            "adminPassword": "Sysgain@1234",
+            "adminPassword": "Spektra@1234",
             "dbUsername": "dbadmin",
-            "dbPassword": "Sysgain@1234"
+            "dbPassword": "Spektra@1234"
         },
         "networkSpec": {
             "addressPrefix": "[variables('addressPrefix')]",
