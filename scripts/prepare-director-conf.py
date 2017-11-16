@@ -189,6 +189,10 @@ def prepareAndImportConf(options):
                           networkSecurityGroupResourceGroup, networkSecurityGroup,
                           virtualNetworkResourceGroup, virtualNetwork, subnetName,
                           computeResourceGroup, hostFqdnSuffix)
+    setInstanceParameters(conf, 'cluster.gateways.instance', edgeType,
+                          networkSecurityGroupResourceGroup, networkSecurityGroup,
+                          virtualNetworkResourceGroup, virtualNetwork, subnetName,
+                          computeResourceGroup, hostFqdnSuffix)
 
     conf.put('databaseServers.mysqlprod1.host', dbHostOrIP)
     conf.put('databaseServers.mysqlprod1.user', dbUsername)
