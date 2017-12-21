@@ -24,7 +24,7 @@
     "variables": {
         "AzureSubscriptionID": "[subscription().subscriptionId]",
         "AzureActiveDirectoryTenantID": "[subscription().tenantId]",
-        "scriptsUri": "https://raw.githubusercontent.com/akn9050/cloudera-spectra-vip-new/master/",
+        "scriptsUri": "https://raw.githubusercontent.com/akn9050/cloudera/master/",
         "share-resourcesUri": "[concat(variables('scriptsUri'), 'nested/shared-resources-new-vnet.json')]",
         "vnetUri": "[concat(variables('scriptsUri'), 'nested/update-new-vnet-dns.json')]",
         "networkRestartUri": "[concat(variables('scriptsUri'), 'nested/network-restart-new-vnet.json')]",
@@ -33,8 +33,8 @@
         "launchClusterUri": "[concat(variables('scriptsUri'), 'nested/prepare-conf-launch-cluster.json')]",
         "directornodeUri": "[concat(variables('scriptsUri'), 'nested/director-node-and-shared-resources.json')]",
         "version": {
-            "templateAPIVersion": "2015-11-01",
-            "resourceAPIVersion": "2015-06-15",
+            "templateAPIVersion": "2016-11-01",
+            "resourceAPIVersion": "2016-11-01",
             "datalakeAPIVersion": "2016-11-01",
             "typeHandlerVersion": "2.0",
             "typeHandlerVersion1": "1.5",
