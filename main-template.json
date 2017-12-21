@@ -21,6 +21,7 @@
             }
         }
     },
+    
     "variables": {
         "AzureSubscriptionID": "[subscription().subscriptionId]",
         "AzureActiveDirectoryTenantID": "[subscription().tenantId]",
