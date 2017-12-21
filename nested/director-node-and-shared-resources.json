@@ -110,8 +110,9 @@
               "access": "Allow",
               "priority": 100,
               "direction": "Inbound"
-            },
-              {
+            }
+          },
+          {
             "name": "Port_7189",
             "properties": {
               "description": "director_webUI",
