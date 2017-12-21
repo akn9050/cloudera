@@ -1,1 +1,1 @@
-# cloudera-spectra-vip-new
+# cloudera-spektra-vip-new
