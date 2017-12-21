@@ -189,11 +189,11 @@ def prepareAndImportConf(options):
                           networkSecurityGroupResourceGroup, networkSecurityGroup,
                           virtualNetworkResourceGroup, virtualNetwork, subnetName,
                           computeResourceGroup, hostFqdnSuffix)
-    setInstanceParameters(conf, 'cluster.workers.instance', masterType,
+    setInstanceParameters(conf, 'cluster.workers.instance',workerType,
                           networkSecurityGroupResourceGroup, networkSecurityGroup,
                           virtualNetworkResourceGroup, virtualNetwork, subnetName,
                           computeResourceGroup, hostFqdnSuffix)
-    setInstanceParameters(conf, 'cluster.gateway.instance', gatewayType,
+    setInstanceParameters(conf, 'cluster.gateway.instance', edgeType,
                           networkSecurityGroupResourceGroup, networkSecurityGroup,
                           virtualNetworkResourceGroup, virtualNetwork, subnetName,
                           computeResourceGroup, hostFqdnSuffix)
