@@ -118,7 +118,7 @@
               "description": "director_webUI",
               "protocol": "*",
               "sourcePortRange": "*",
-              "destinationPortRange": "*",
+              "destinationPortRange": "7189",
               "sourceAddressPrefix": "*",
               "destinationAddressPrefix": "*",
               "access": "Allow",
